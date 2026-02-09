@@ -16,3 +16,11 @@
   --white: #ffffff;
 }
 
+body {
+  font-family: 'Inter', sans-serif;
+  max-width: 450px;
+  margin: 0 auto;
+  color: var(--dark-gray);
+  background-color: var(--white);
+}
+
