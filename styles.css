@@ -24,3 +24,10 @@ body {
   background-color: var(--white);
 }
 
+h1 {
+  font-family: 'Kavoon', cursive;
+  font-size: 3em;
+  color: var(--teal);
+  text-align: center;
+}
+
