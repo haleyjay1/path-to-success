@@ -44,3 +44,25 @@ nav li {
   color: var(--purple);
 }
 
+main {
+  padding: 1.5em 1em;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+main section > h2 {
+  font-family: 'Kavoon', cursive;
+  font-size: 2em;
+  color: var(--purple);
+  text-align: center;
+}
+
+main section article {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
