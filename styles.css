@@ -1,11 +1,15 @@
+/* CSS BY Haley Jay */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 
+/* CSS RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* ROOT VARIABLES */
 :root {
   --teal: #4CA7C0;
   --purple: #484FB7;
@@ -16,6 +20,7 @@
   --white: #ffffff;
 }
 
+/* GLOBAL STYLES (mobile first/small) */
 body {
   font-family: 'Inter', sans-serif;
   max-width: 450px;
@@ -44,6 +49,7 @@ nav li {
   color: var(--purple);
 }
 
+/* ARTICLE LAYOUT (mobile first) */
 main {
   padding: 1.5em 1em;
 }
@@ -65,4 +71,18 @@ main section article {
   display: flex;
   flex-direction: column;
   gap: 1.5em;
+}
+
+/* CONTENT BLOCKS */
+main section article div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  padding: 1em;
+  border-radius: 12px;
+  background-color: var(--lavender);
+}
+
+main section article div:nth-of-type(even) {
+  background-color: var(--teal);
 }
