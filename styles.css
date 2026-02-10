@@ -53,9 +53,13 @@ main {
   background-color: var(--purple);
 }
 
+h1,
+h2 {
+  font-family: var(--heading-font);
+}
+
 h1 {
-  font-family: 'Kavoon', cursive;
-  font-size: 3em;
+    font-size: 3em;
   color: var(--teal);
   text-align: center;
 }
