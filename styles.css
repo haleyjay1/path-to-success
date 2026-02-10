@@ -132,3 +132,17 @@ body {
   margin: 0 auto;
 }
 
+main section:last-of-type {
+  margin-top: 3em;
+}
+
+main section:last-of-type > h2 {
+  margin-bottom: 1.5em;
+  color: var(--purple);
+  text-align: center;
+}
+
+main section:last-of-type article {
+  margin-bottom: 2em;
+}
+
