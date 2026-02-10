@@ -4,9 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 
 /* CSS RESET */
-*,
-*::before,
-*::after {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -37,20 +35,20 @@ ul {
 
 
 
-
 /* GLOBAL STYLES (mobile first/small) */
 body {
     font-family: var(--body-font);
     max-width: 450px;
     margin: 0 auto;
     color: var(--dark-gray);
-    background-color: var(--white);
+    background-color: var(--lavender);
 }
 
 main {
     max-width: 450px;
     margin: 0 auto;
     background-color: var(--purple);
+    padding: 1.5em 1em;
 }
 
 h1,
@@ -66,6 +64,7 @@ h1 {
 
 nav h2 {
     font-size: 1.5em;
+    text-align: center;
 }
 
 h2 {
@@ -83,82 +82,65 @@ h4 {
     font-size: 1.15em;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5em;
-  padding: 1em;
+
+/* HEAD AND NAV */
+header {
+    text-align: center;
+    padding: 1.5rem 1rem;
+    color: var(--white);
 }
 
-nav li {
-  font-size: 1.5em;
-  color: var(--purple);
+nav {
+    background-color: var(--yellow);
+    padding: 1rem;
 }
 
-/* ARTICLE LAYOUT (mobile first) */
-main {
-  padding: 1.5em 1em;
+nav ul li {
+    margin-bottom: 0.5rem;
 }
 
-main section {
-  display: flex;
-  flex-direction: column;
-  gap: 2em;
+nav ul li a {
+    display: block;
+    background-color: var(--white);
+    color: var(--purple);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.75rem;
+    border-radius: 6px;
+    text-align: center;
 }
 
-main section > h2 {
-  font-family: 'Kavoon', cursive;
-  font-size: 2em;
-  color: var(--purple);
-  text-align: center;
+
+/* SECTIONS */
+
+section {
+    padding: 1rem;
 }
 
-main section article {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5em;
+article {
+    background-color: var(--white);
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
-/* CONTENT BLOCKS */
-main section article div {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5em;
-  padding: 1em;
-  border-radius: 12px;
-  background-color: var(--lavender);
+article img {
+    width: 48px;
+    margin-bottom: 0.5rem;
 }
 
-main section article div:nth-of-type(even) {
-  background-color: var(--teal);
+#why {
+    background-color: var(--pink);
 }
 
-/* HEADINGS */
-h3 {
-  font-size: 1.5em;
-  color: var(--dark-gray);
+#why article {
+    text-align: center;
+    font-weight: bold;
 }
 
-h4 {
-  font-size: 1.15em;
-  color: var(--white);
-}
 
-/* Paragraph Text */
-p {
-  font-size: 1em;
-  line-height: 1.6;
-}
 
-main section article div p {
-  color: var(--white);
-}
 
-main section article img {
-  width: 40px;
-  height: auto;
-}
 
 /* BUTTONs */
 a,
