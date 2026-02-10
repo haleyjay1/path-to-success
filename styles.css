@@ -97,3 +97,13 @@ h4 {
   font-size: 1.15em;
   color: var(--white);
 }
+
+/* Paragraph Text */
+p {
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+main section article div p {
+  color: var(--white);
+}
