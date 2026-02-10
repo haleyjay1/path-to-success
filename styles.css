@@ -1,12 +1,24 @@
 /* CSS BY Haley Jay */
 
+/* IMPORTED FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 
 /* CSS RESET */
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
 }
 
 /* ROOT VARIABLES */
@@ -18,7 +30,13 @@
   --pink: #D9526F;
   --dark-gray: #1E1E1E;
   --white: #ffffff;
+
+  --heading-font: 'Kavoon', cursive;
+  --body-font: 'Inter', sans-serif;
 }
+
+
+
 
 /* GLOBAL STYLES (mobile first/small) */
 body {
