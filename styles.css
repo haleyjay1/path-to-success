@@ -40,11 +40,17 @@ ul {
 
 /* GLOBAL STYLES (mobile first/small) */
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--body-font);
   max-width: 450px;
   margin: 0 auto;
   color: var(--dark-gray);
   background-color: var(--white);
+}
+
+main {
+  max-width: 450px;
+  margin: 0 auto;
+  background-color: var(--purple);
 }
 
 h1 {
