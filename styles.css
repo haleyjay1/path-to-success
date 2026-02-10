@@ -127,3 +127,8 @@ button {
   font-weight: 600;
 }
 
+body {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
