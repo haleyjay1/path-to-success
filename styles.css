@@ -146,3 +146,31 @@ main section:last-of-type article {
   margin-bottom: 2em;
 }
 
+main section:last-of-type article > h3 {
+  margin-bottom: 0.75em;
+  color: var(--teal);
+}
+
+main section:last-of-type table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--white);
+}
+
+main section:last-of-type thead th {
+  background-color: var(--lavender);
+  color: var(--white);
+  text-align: left;
+  padding: 0.75em;
+  font-weight: 600;
+}
+
+main section:last-of-type tbody th,
+main section:last-of-type tbody td {
+  padding: 0.75em;
+  border-bottom: 1px solid var(--lavender);
+}
+
+main section:last-of-type tbody tr:nth-child(even) {
+  background-color: #f5f6ff;
+}
