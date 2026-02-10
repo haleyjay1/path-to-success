@@ -156,16 +156,28 @@ td {
     border-top: 1px solid #dddddd;
 }
 
-
-footer {
-  margin-top: 3em;
-  padding: 1.5em;
-  text-align: center;
-  font-size: 0.9em;
-  color: var(--dark-gray);
-  border-top: 2px solid var(--lavender);
+#contact {
+    background-color: var(--pink);
+    color: var(--white);
+    text-align: center;
+    padding: 1.5rem 1rem;
 }
 
-footer p {
-  margin-bottom: 0.5em;
+#contact a {
+    display: inline-block;
+    background-color: var(--white);
+    color: var(--dark-gray);
+    text-decoration: none;
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: var(--purple);
+    color: var(--white);
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.85rem;
 }
