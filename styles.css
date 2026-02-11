@@ -64,7 +64,14 @@ h1 {
     margin-bottom: 0.5em;
 }
 
+header p {
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
 nav h2 {
+    font-family: var(--heading-font);
     font-size: 1.5em;
     text-align: center;
     margin-bottom: 0.5em;
@@ -105,6 +112,7 @@ nav ul li {
 
 nav ul {
     margin-top: 0.5rem;
+    padding: 0;
 }
 
 nav ul li a {
@@ -139,7 +147,7 @@ section article {
 
 article {
     background-color: var(--white);
-    border-radius: 12px;
+    border-radius: 16px;
     padding: 1rem;
     margin-bottom: 1rem;
 }
@@ -151,7 +159,9 @@ article img {
 
 #why {
     background-color: var(--pink);
-    padding: 1rem;
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    border-radius: 10px;
 }
 
 #why article {
@@ -166,6 +176,11 @@ article img {
     border-radius: 6px;
     font-weight: bold;
     text-align: center;
+}
+
+table {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
 }
 
 section table {
@@ -194,16 +209,16 @@ section table td {
 }
 
 #contact a {
-    display: inline-block;
+    display: block;
     background-color: var(--white);
     color: var(--dark-gray);
     text-decoration: none;
-    padding: 0.75rem 1rem;
-    border-radius: 6px;
+    padding: 1rem;
+    border-radius: 20px;
     font-weight: bold;
-    margin-top: 1rem;
+    margin: 1rem auto 0 auto;
+    width: 80%;
 }
-
 footer {
     background-color: var(--purple);
     color: var(--white);
